@@ -1,0 +1,211 @@
+.cs-search-card {
+    display: grid;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 63px;
+    border-radius: 8px;
+}
+  
+  .cs-search-card-header {
+    text-align: center;
+  }
+  
+  .cs-search-card-header h1 {
+    color: #333;
+  }
+
+  .cs-search-logo{
+    width: 5vh;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-right: -10px;
+  }
+  
+  .cs-search-card-category-button {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 2rem; /* Espaciado entre los botones */
+    padding: 10px;
+    width: 100px;
+    background-color: #4caf50;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+
+  .cs-search-card-category-button.is-selected {    
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 2rem; /* Espaciado entre los botones */
+    padding: 10px;
+    width: 100px;
+    background-color: #4caf50;
+    color: rgb(236, 231, 231);    
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    border: 1.8px solid black;
+  }
+
+  
+  .cs-search-card-category-button:hover {
+    background-color: #45a049;
+  }
+  
+  .cs-search-card-category-button img {
+    margin-right: 5px;
+    fill: rgb(254, 254, 254);
+    width: 20px;
+    height: 20px;
+  }
+  
+  .cs-search-card-category-button:nth-child(2) {
+    background-color: #3498db;
+  }
+  
+  .cs-search-card-category-button:nth-child(2):hover {
+    background-color: #2980b9;
+  }
+
+  .cs-search-card-compare-button {
+    background-color: #3498db;
+    color: rgb(6, 6, 6);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cs-search-card-compare-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .cs-search-card-input-text {
+    display: block;
+    margin-bottom: 5px;    
+  }
+  
+  .cs-search-card-input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 2px;
+  }
+  
+  .cs-search-card-compare {
+    text-align: center;
+    display: grid;
+    flex-direction: column;
+    align-items: start;
+    height: 4vh;
+    justify-content: center;
+    align-content: center;
+}
+  
+  .cs-search-card-compare-button {
+    background-color: #3498db;
+    color: rgb(236, 231, 231);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100px;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cs-search-card-compare-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .cs-search-card-result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;    
+  }
+  .cs-search-card-result p {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #eae4e4;
+  }
+
+.cs-search-card-inputs{
+  margin-top: 5rem;
+}
+
+  .cs-search-card-mensaje-estrategia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+/* =================================================================*/
+
+.rs-result-card{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 45px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  text-align: -webkit-center;
+  align-items: center;  
+}
+
+.rs-result-card-header{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 45px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  text-align: -webkit-center;
+  align-items: center; 
+}
+
+.hs-result-card {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: baseline;
+  display: grid;
+  width: 100%;
+  justify-content: space-evenly;
+  text-align: -webkit-center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(202px, 10fr));
+  justify-items: stretch;
+}
+
+.nf-card {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 5px;
+  justify-content: center;
+  text-align: -webkit-center;
+  align-items: center;
+  
+}

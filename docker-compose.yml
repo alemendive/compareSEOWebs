@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  compareseo:
+    build: compareseo
+    ports:
+      - "5000:5000"
+    environment:
+      API_KEY: AIzaSyAPvsxEPxawYXJf3MqCaGl95FTQUGuJy_U
+      API_URL: https://www.googleapis.com/pagespeedonline/v5/runPagespeed

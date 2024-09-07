@@ -1,0 +1,8 @@
+services:  
+  compareSEO:    
+    build:
+      context: compareSEO
+      dockerfile: Dockerfile    
+    image: frontend:v1.0
+    ports:
+      - "8080:8080"
